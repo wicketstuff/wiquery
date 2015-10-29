@@ -1,5 +1,6 @@
 .project
 .classpath
+.settings
 target
 
 .externalToolBuilders/
@@ -7,4 +8,6 @@ org.eclipse.core.resources.prefs
 org.eclipse.jdt.apt.core.prefs
 org.eclipse.m2e.core.prefs
 org.eclipse.pde.core.prefs
+
+wiquery-*.i*
 
