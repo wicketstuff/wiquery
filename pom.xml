@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
-		<version>7</version>
+		<version>9</version>
 	</parent>
 
 	<prerequisites>
@@ -49,11 +49,15 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<wicket.version>6.13.0</wicket.version>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+
+		<wicket.version>6.0.0</wicket.version>
 		<jackson.version>2.3.1</jackson.version>
 		<slf4j.version>[1.7,1.7.5]</slf4j.version>
-		<junit.version>4.11</junit.version>
-		<jetty.version>9.0.7.v20131107</jetty.version>
+		<junit.version>4.12</junit.version>
+		<servlet-api.version>3.0.1</servlet-api.version>
+		<jetty.version>9.3.5.v20151012</jetty.version>
 
 		<maven-bundle-plugin.version>2.4.0</maven-bundle-plugin.version>
 		<maven-clean-plugin.version>2.5</maven-clean-plugin.version>
@@ -308,12 +312,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-					<showWarnings>true</showWarnings>
-					<showDeprecation>true</showDeprecation>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
