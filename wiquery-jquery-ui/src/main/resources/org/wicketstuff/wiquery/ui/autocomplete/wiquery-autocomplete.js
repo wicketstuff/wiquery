@@ -43,7 +43,7 @@
 	
 			} else {
 			  	var find = null;
-			  	var source = $(event.target).autocomplete('option', 'source');
+			  	var source = new String($(event.target).autocomplete('option', 'source'));
 			  	
 			  	var matcher = new RegExp( "^" + val + "$", "i" );
 	
