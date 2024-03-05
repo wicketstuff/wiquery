@@ -87,8 +87,7 @@ public class DatePickerLanguageResourceReferenceTestCase
 	}
 	
 	@Test
-	@EnabledForJreRange(min = JRE.JAVA_17)
-	public void testRenamedLocales_JDK17OrLater()
+	public void testRenamedLocales()
 	{
 		assertEquals(DatePickerLanguages.INDONESIAN,
 			DatePickerLanguages.getDatePickerLanguages(new Locale("in")));
@@ -110,23 +109,5 @@ public class DatePickerLanguageResourceReferenceTestCase
 		
 		// kz does not exist
 		assertNotEquals(new Locale("kk"), new Locale("kz"));
-	}
-
-	@Test
-	@EnabledForJreRange(max =JRE.JAVA_16)
-	public void testRenamedLocales_preJava17() {
-		assertEquals(DatePickerLanguages.INDONESIAN,
-				DatePickerLanguages.getDatePickerLanguages(new Locale("in")));
-		assertEquals(DatePickerLanguages.INDONESIAN,
-				DatePickerLanguages.getDatePickerLanguages(new Locale("id")));
-		assertEquals(DatePickerLanguages.getJsFileName(DatePickerLanguages.INDONESIAN),
-				"i18n/datepicker-in.js");
-
-		assertEquals(DatePickerLanguages.HEBREW,
-				DatePickerLanguages.getDatePickerLanguages(new Locale("he")));
-		assertEquals(DatePickerLanguages.HEBREW,
-				DatePickerLanguages.getDatePickerLanguages(new Locale("iw")));
-		assertEquals(DatePickerLanguages.getJsFileName(DatePickerLanguages.HEBREW),
-				"i18n/datepicker-iw.js");
 	}
 }
