@@ -1,8 +1,8 @@
 # WiQuery for Apache Wicket
 
-WiQuery is a project to simply Wicket integration with jQuery and jQuery UI.
+WiQuery is a project to add jQuery and jQuery UI to [Apache Wicket](https://wicket.apache.org]).
 
-This branch follows the development of Apache Wicket
+This branch follows the [development of Apache Wicket](https://github.com/apache/wicket).
 
 WiQuery consists of 3 subprojects:
 - core - the core library
@@ -13,8 +13,8 @@ WiQuery consists of 3 subprojects:
 
 WiQuery requires the following:
 
-- Java 8
-- Servlet 5.0 
+- Java 17
+- Servlet 6
 - Wicket 10 or newer
 
 Newer or older major releases of Wicket are not compatible with this version of WiQuery.
