@@ -1,8 +1,8 @@
 # WiQuery for Apache Wicket
 
-WiQuery is a project to simply Wicket integration with jQuery and jQuery UI.
+WiQuery is a project to add jQuery and jQuery UI to [Apache Wicket](https://wicket.apache.org]).
 
-This branch follows the development of Apache Wicket
+This branch follows the [development of Apache Wicket](https://github.com/apache/wicket).
 
 WiQuery consists of 3 subprojects:
 - core - the core library
