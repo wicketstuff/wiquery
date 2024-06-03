@@ -1,8 +1,8 @@
-# WiQuery for Apache Wicket 8.x
+# WiQuery for Apache Wicket 9.x
 
 WiQuery is a project to simply Wicket integration with jQuery and jQuery UI.
 
-This branch follows the development of Apache Wicket 8.x (the master branch of Apache Wicket)
+This branch follows the development of Apache Wicket 9.x (the master branch of Apache Wicket)
 
 WiQuery consists of 3 subprojects:
 - core - the core library
@@ -13,9 +13,9 @@ WiQuery consists of 3 subprojects:
 
 WiQuery requires the following:
 
-- Java 8
-- Servlet 3.1 
-- Wicket 8.0 or newer
+- Java 11
+- Servlet 4.0 
+- Wicket 9.0 or newer
 
 Newer or older major releases of Wicket are not compatible with this version of WiQuery.
 
