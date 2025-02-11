@@ -27,7 +27,7 @@
 
 		<dependency>
 			<groupId>org.mozilla</groupId>
-			<artifactId>rhino</artifactId>
+			<artifactId>rhino-tools</artifactId>
 		</dependency>
 
 		<!-- Test dependencies -->
