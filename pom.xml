@@ -57,16 +57,15 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.target>17</maven.compiler.target>
-		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.release>17</maven.compiler.release>
 
 		<wicket.version>10.4.0</wicket.version>
-		<jackson.version>2.17.2</jackson.version>
+		<jackson.version>2.18.2</jackson.version>
 		<slf4j.version>2.0.16</slf4j.version>
 		<junit.version>5.12.0</junit.version>
 		<servlet-api.version>6.0.0</servlet-api.version>
 		<jetty.version>11.0.24</jetty.version>
-		<rhino.version>1.7.15</rhino.version>
+		<rhino.version>1.8.0</rhino.version>
 	</properties>
 
 	<modules>
@@ -118,7 +117,7 @@
 			</dependency>
 			<dependency>
 				<groupId>org.mozilla</groupId>
-				<artifactId>rhino</artifactId>
+				<artifactId>rhino-tools</artifactId>
 				<version>${rhino.version}</version>
 			</dependency>
 
