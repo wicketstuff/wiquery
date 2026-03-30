@@ -59,9 +59,6 @@ public class DatePickerLanguageResourceReferenceTestCase extends WiQueryTestCase
 			String absolutePath =
 					Packages.absolutePath(DatePickerLanguageResourceReference.class,
 							DatePickerLanguages.getJsFileName(language));
-//			assertNotNull("Resource " + DatePickerLanguages.getJsFileName(language)
-//				+ " for locale " + language.getLocale() + " does not exist!",
-//				locator.locate(DatePickerLanguageResourceReference.class, absolutePath));
 			assertNotNull(String.valueOf(locator.locate(DatePickerLanguageResourceReference.class, absolutePath)),
 					"Resource " + DatePickerLanguages.getJsFileName(language) +
 							" for locale " + language.getLocale() + " does not exist!");
@@ -86,8 +83,6 @@ public class DatePickerLanguageResourceReferenceTestCase extends WiQueryTestCase
 				DatePickerLanguages.getDatePickerLanguages(new Locale("id")));
 		assertEquals(DatePickerLanguages.INDONESIAN,
 				DatePickerLanguages.getDatePickerLanguages(new Locale("in")));
-//		assertEquals(DatePickerLanguages.getJsFileName(DatePickerLanguages.INDONESIAN).toString(),
-//			"i18n/datepicker-in.js");
 		assertEquals(DatePickerLanguages.getJsFileName(DatePickerLanguages.INDONESIAN),
 				"i18n/datepicker-id.js");
 
@@ -95,8 +90,6 @@ public class DatePickerLanguageResourceReferenceTestCase extends WiQueryTestCase
 				DatePickerLanguages.getDatePickerLanguages(new Locale("he")));
 		assertEquals(DatePickerLanguages.HEBREW,
 				DatePickerLanguages.getDatePickerLanguages(new Locale("iw")));
-//		assertEquals(DatePickerLanguages.getJsFileName(DatePickerLanguages.HEBREW).toString(),
-//			"i18n/datepicker-iw.js");
 		assertEquals(DatePickerLanguages.getJsFileName(DatePickerLanguages.HEBREW),
 				"i18n/datepicker-he.js");
 
