@@ -24,6 +24,18 @@
 		</license>
 	</licenses>
 
+	<developers>
+	  <developer>
+			<id>mgrigorov</id>
+			<name>Martin Grigorov</name>
+			<email>mgrigorov@apache.org</email>
+			<organization>Apache</organization>
+			<roles>
+				<role>Committer</role>
+			</roles>
+		</developer>
+	</developers>
+
 	<url>https://github.com/wicketstuff/wiquery</url>
 	<scm>
 		<url>git://github.com/wicketstuff/wiquery.git</url>
