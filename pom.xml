@@ -82,7 +82,7 @@
 				<artifactId>wiquery-core</artifactId>
 				<version>${project.version}</version>
 			</dependency>
-			<!-- add wiquery-core also as test project so wiquery-jquery-ui can use 
+			<!-- add wiquery-core also as test project so wiquery-jquery-ui can use
 				the abstract testcase class -->
 			<dependency>
 				<groupId>org.wicketstuff.wiquery</groupId>
@@ -374,7 +374,7 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<version>3.5.1</version>
 				</plugin>
-				<!--This plugin's configuration is used to store Eclipse m2e settings 
+				<!--This plugin's configuration is used to store Eclipse m2e settings
 					only. It has no influence on the Maven build itself. -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
@@ -403,6 +403,15 @@
 			</plugins>
 		</pluginManagement>
 		<plugins>
+			<plugin>
+				<groupId>org.sonatype.central</groupId>
+				<artifactId>central-publishing-maven-plugin</artifactId>
+				<version>0.10.0</version>
+				<extensions>true</extensions>
+				<configuration>
+				  <publishingServerId>central</publishingServerId>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
