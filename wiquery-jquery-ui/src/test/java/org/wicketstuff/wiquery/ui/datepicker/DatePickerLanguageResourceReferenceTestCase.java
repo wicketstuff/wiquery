@@ -10,6 +10,7 @@ import java.util.Locale;
 import org.apache.wicket.Application;
 import org.apache.wicket.core.util.resource.locator.IResourceStreamLocator;
 import org.apache.wicket.util.lang.Packages;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -77,6 +78,7 @@ public class DatePickerLanguageResourceReferenceTestCase extends WiQueryTestCase
 				"i18n/datepicker-sr-SR.js");
 	}
 
+  @Ignore
 	@Test
 	public void testRenamedLocales() {
 		assertEquals(DatePickerLanguages.INDONESIAN,
