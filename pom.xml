@@ -316,6 +316,7 @@
 					<configuration>
 						<encoding>UTF-8</encoding>
 						<quiet>true</quiet>
+						<additionalparam>-Xdoclint:none</additionalparam>
                         <links>
                             <link>https://docs.oracle.com/en/java/javase/17/docs/api/</link>
                             <link>https://junit.org/junit5/docs/current/api/</link>
