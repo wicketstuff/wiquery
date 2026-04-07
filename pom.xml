@@ -14,7 +14,7 @@
 	<groupId>org.wicketstuff.wiquery</groupId>
 	<artifactId>wiquery-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>10.1.0-SNAPSHOT</version>
+	<version>10.1.0</version>
 	<name>WiQuery Parent</name>
 
 	<licenses>
@@ -41,7 +41,7 @@
 		<url>git://github.com/wicketstuff/wiquery.git</url>
 		<connection>scm:git:git://github.com/wicketstuff/wiquery.git</connection>
 		<developerConnection>scm:git:git@github.com:wicketstuff/wiquery.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>wiquery-10.1.0</tag>
   </scm>
 
 	<profiles>
