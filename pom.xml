@@ -316,21 +316,23 @@
 					<configuration>
 						<encoding>UTF-8</encoding>
 						<quiet>true</quiet>
-						<additionalparam>-Xdoclint:none</additionalparam>
-                        <links>
-                            <link>https://docs.oracle.com/en/java/javase/17/docs/api/</link>
-                            <link>https://junit.org/junit5/docs/current/api/</link>
-                            <link>http://www.slf4j.org/apidocs/</link>
-                        </links>
+						<additionalOptions>
+							<additionalOption>-Xdoclint:none</additionalOption>
+						</additionalOptions>
+						<links>
+							<link>https://docs.oracle.com/en/java/javase/17/docs/api/</link>
+							<link>https://docs.junit.org/6.0.3/api/</link>
+							<link>https://www.slf4j.org/apidocs/</link>
+						</links>
 					</configuration>
 					<executions>
-                        <execution>
-                            <id>attach-javadocs</id>
-                            <goals>
-                                <goal>jar</goal>
-                            </goals>
-                        </execution>
-                    </executions>
+						<execution>
+							<id>attach-javadocs</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
