@@ -71,10 +71,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>17</maven.compiler.release>
 
-		<wicket.version>10.10.0</wicket.version>
+		<wicket.version>10.11.0</wicket.version>
 		<jackson.version>2.18.2</jackson.version>
-		<slf4j.version>2.0.18</slf4j.version>
 		<junit.version>6.1.3</junit.version>
+		<slf4j.version>2.0.19</slf4j.version>
 		<servlet-api.version>6.0.0</servlet-api.version>
 		<jetty.version>11.0.25</jetty.version>
 		<rhino.version>1.9.1</rhino.version>
@@ -221,7 +221,7 @@
 				<plugin>
 					<groupId>org.apache.felix</groupId>
 					<artifactId>maven-bundle-plugin</artifactId>
-					<version>6.1.0</version>
+					<version>6.1.2</version>
 					<extensions>true</extensions>
 					<executions>
 						<execution>
@@ -261,7 +261,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.15.0</version>
+					<version>3.16.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -363,7 +363,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.5.6</version>
+					<version>3.6.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
