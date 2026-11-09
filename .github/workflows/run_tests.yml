@@ -13,7 +13,7 @@ jobs:
             - name: Set up JDK
               uses: actions/setup-java@v6.2.0
               with:
-                  java-version: 17
+                  java-version: 21
                   distribution: temurin
 
             - name: Cache Local Maven Repository

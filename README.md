@@ -13,7 +13,7 @@ WiQuery consists of 3 subprojects:
 
 WiQuery requires the following:
 
-- Java 17
+- Java 21
 - Servlet 6
 - Wicket 10 or newer
 
